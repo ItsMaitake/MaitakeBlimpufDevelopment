@@ -45,7 +45,7 @@
 
 # CC Beret
 - type: entity
-  parent: ClothingHeadHatCCBeret
+  parent: ClothingHeadHatCCberet
   id: ClothingHeadHatCCBeretOrnate
   name: Ornate CentComm Beret
   description: A beret trimmed in gilden fabric. It's quite heavy.
