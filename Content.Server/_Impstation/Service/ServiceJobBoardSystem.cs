@@ -89,6 +89,9 @@ public sealed partial class ServiceJobBoardSystem : EntitySystem
             !TryComp<ServiceJobsDataComponent>(station, out var jobData))
             return;
 
+        if (jobData.ActiveJob != null)
+            return;
+
         if (!_prototypeManager.TryIndex<ServiceJobPrototype>(args.JobId, out var job))
             return;
 
@@ -103,15 +106,16 @@ public sealed partial class ServiceJobBoardSystem : EntitySystem
             "service-job-console-select-announce",
             ("event", Loc.GetString(job.Name)),
             ("timer", job.Timer.ToString()));
-        _radio.SendRadioMessage(ent, message, ent.Comp.AnnounceChannel, ent, false);
+        _radio.SendRadioMessage(ent, message, ent.Comp.AnnounceChannel, ent, escapeMarkup: false);
 
         // we need to update the state of all computers, not just the one in use
         var query = EntityQueryEnumerator<ServiceJobBoardConsoleComponent>();
         while (query.MoveNext(out var uid, out var console))
         {
             if (_station.GetOwningStation(ent.Owner) is not { } queryStation ||
-                !TryComp<ServiceJobsDataComponent>(station, out var queryJobData))
-                return;
+                queryStation != station ||
+                !TryComp<ServiceJobsDataComponent>(queryStation, out var queryJobData))
+                continue;
             UpdateUi((uid, console), (queryStation, queryJobData));
         }
     }

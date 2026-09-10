@@ -13,7 +13,7 @@
   description: service-job-training-workshop-description
   startAnnounce: service-job-training-workshop-start
   sprite:
-    sprite: _Funkystation/Objects/Tools/wrench.rsi #Funky - No great wrench sprite
+    sprite: Objects/Tools/wrench.rsi
     state: icon
 
 - type: serviceJob
