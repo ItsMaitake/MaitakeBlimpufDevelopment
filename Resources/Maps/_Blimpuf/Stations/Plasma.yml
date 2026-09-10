@@ -27145,11 +27145,6 @@ entities:
     - type: Transform
       pos: -53.5,-3.5
       parent: 2
-  - uid: 2542
-    components:
-    - type: Transform
-      pos: -52.5,-3.5
-      parent: 2
   - uid: 2543
     components:
     - type: Transform
@@ -183378,5 +183373,12 @@ entities:
     components:
     - type: Transform
       pos: -63.460793,7.7403336
+      parent: 2
+- proto: ComputerServiceJobBoard
+  entities:
+  - uid: 28110
+    components:
+    - type: Transform
+      pos: -52.5,-3.5
       parent: 2
 ...

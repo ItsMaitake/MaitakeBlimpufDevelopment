@@ -10,7 +10,7 @@ service-job-console-select-announce = Station event selected: {$event}. You have
 # JOBS
 service-job-ballroom-dance-name = Ballroom Dance
 service-job-ballroom-dance-description = A good old-fashioned dance is just what we need to increase morale around here!
-service-job-ballroom-dance-start = The ballroom dance is now starting! Bring your dancing shoes, and grab a partner!
+service-job-ballroom-dance-start = The ballroom dance is now starting! Bring your dancing shoes and grab a partner!
 
 service-job-training-workshop-name = Training Workshop
 service-job-training-workshop-description = An opportunity to teach the crew something new, encompassing anything from the practical to the absurd.
@@ -58,19 +58,19 @@ service-job-comedy-night-description = Lets liven up this station with some joke
 service-job-comedy-night-start = Comedy night is starting soon! Try not to die of laughter!
 
 service-job-race-name = Race
-service-job-race-description = A race will determine who is the fastest bitch on the station! The type of race and rewards are up to the Hospitality Director.
-service-job-race-start = A race is about to begin! Please follow the Hospitality Director's instructions for viewing or participation.
+service-job-race-description = A race will determine who is the fastest crewmember on the station! The type of race and rewards are up to the Head of Personnel.
+service-job-race-start = A race is about to begin! Please follow the Head of Personnel's instructions for viewing or participation.
 
 service-job-fire-drill-name = Fire Drill
 service-job-fire-drill-description = To test the response time of station crew, conduct a fire drill to keep them on their toes. For proper testing, ensure the crew does not know that this is a drill until it has completed.
-service-job-fire-drill-start = THIS IS NOT A DRILL. THERE IS A CONFIRMED FIRE ON THE STATION. PLEASE MOVE TO YOUR DESIGNATED FIRE SAFETY EVACUTATION AREAS.
+service-job-fire-drill-start = THIS IS NOT A DRILL. THERE IS A CONFIRMED FIRE ON THE STATION. PLEASE MOVE TO YOUR DESIGNATED FIRE SAFETY EVACUATION AREAS.
 
 service-job-scavenger-hunt-name = Scavenger Hunt
 service-job-scavenger-hunt-description = Hide items around the station for observant crew to find. Team building fun!
 service-job-scavenger-hunt-start = A station-wide scavenger hunt is starting soon! Leave no stone unturned!
 
 service-job-dare-name = D.A.R.E. Seminar
-service-job-dare-description = Learn the dangers of smoking the devil's leaf and how to avoid it.
+service-job-dare-description = Learn the dangers of smoking the devil's lettuce and how to avoid it.
 service-job-dare-start = The D.A.R.E. seminar is starting soon! Learn about dangerous drugs and chemicals and how Not to become addicted to them!
 
 service-job-lottery-name = Lottery
@@ -86,7 +86,7 @@ service-job-tournament-description = Violence may be the last refuge of the inco
 service-job-tournament-start = Warriors clash. Mere mortals turned weapons of fury. Could-be champions will determine the ultimate victor. A battle is soon commencing!
 
 service-job-pool-party-name = Pool Party
-service-job-pool-party-description = Its pool day! Grab your best bathing suit and get to throwing inflatable balloons at your coworkers. Nanotrasen not responsible for any slime-related injuries.
+service-job-pool-party-description = It's pool day! Grab your best bathing suit and get to throwing inflatable balloons at your coworkers. Nanotrasen is not responsible for any slime-related injuries.
 service-job-pool-party-start = Surf's up! The pool party has begun!
 
 service-job-unforgettable-luncheon-name = Unforgettable Luncheon
