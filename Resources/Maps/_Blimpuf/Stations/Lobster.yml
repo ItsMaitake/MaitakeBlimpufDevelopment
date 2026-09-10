@@ -154485,33 +154485,13 @@ entities:
       pos: -10.45,37.9
       parent: 2
       rot: 4.71238898038469 rad
-- proto: LockerHeadOfPersonnelFilled
+- proto: LockerHeadOfPersonnel
   entities:
   - uid: 25221
     components:
     - type: Transform
       pos: -10.5,26.5
       parent: 2
-    - type: EntityStorage
-      air:
-        volume: 200
-        immutable: False
-        temperature: 293.14673
-        moles:
-          Oxygen: 1.7459903
-          Nitrogen: 6.568249
-    - type: ContainerContainer
-      containers:
-        entity_storage: !type:Container
-          showEnts: False
-          occludes: True
-          ents:
-          - 11285
-          - 11286
-        paper_label: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent:
 - proto: ComputerServiceJobBoard
   entities:
   - uid: 25222
